@@ -158,7 +158,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown(
         '<div style="text-align:center; color:#666; font-size:0.75rem;">'
-        "Powered by Llama 3.3 70B via Groq<br>Built for Careem AI Challenge"
+        "Powered by Llama 3.3 70B via Groq"
         "</div>",
         unsafe_allow_html=True,
     )
@@ -365,7 +365,7 @@ if "review_result" in st.session_state:
     # ── Footer ──
     st.markdown(
         '<div class="footer">'
-        "Powered by Llama 3.3 70B via Groq · Built for Careem AI Challenge"
+        "Powered by Llama 3.3 70B via Groq"
         "</div>",
         unsafe_allow_html=True,
     )
